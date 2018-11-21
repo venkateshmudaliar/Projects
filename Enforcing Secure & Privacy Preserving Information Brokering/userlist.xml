@@ -1,0 +1,275 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="New_Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="New_Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_no" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="PatientName" type="xs:string" minOccurs="0" />
+                <xs:element name="DoctorName" type="xs:string" minOccurs="0" />
+                <xs:element name="Age" type="xs:string" minOccurs="0" />
+                <xs:element name="DiseaseName" type="xs:string" minOccurs="0" />
+                <xs:element name="Email" type="xs:string" minOccurs="0" />
+                <xs:element name="DiseaseDescription" type="xs:string" minOccurs="0" />
+                <xs:element name="SecretKey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <New_Table>
+    <id_no>1</id_no>
+    <PatientName>patient1</PatientName>
+    <DoctorName>doctor1</DoctorName>
+    <Age>45</Age>
+    <DiseaseName>asthama</DiseaseName>
+    <Email>patient1@gmail.com</Email>
+    <DiseaseDescription>severe breathing problem</DiseaseDescription>
+    <SecretKey>cgr4eb35</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>2</id_no>
+    <PatientName>patient2</PatientName>
+    <DoctorName>doctor2</DoctorName>
+    <Age>34</Age>
+    <DiseaseName>cough</DiseaseName>
+    <Email>patient2@gmail.com</Email>
+    <DiseaseDescription>cough dry</DiseaseDescription>
+    <SecretKey>phxlmzax</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>3</id_no>
+    <PatientName>patient3</PatientName>
+    <DoctorName>doctor3</DoctorName>
+    <Age>45</Age>
+    <DiseaseName>harnia</DiseaseName>
+    <Email>patient3@gmail.com</Email>
+    <DiseaseDescription>harnia in leg</DiseaseDescription>
+    <SecretKey>rvxr3fus</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>4</id_no>
+    <PatientName>patient4</PatientName>
+    <DoctorName>doctor4</DoctorName>
+    <Age>47</Age>
+    <DiseaseName>back pain</DiseaseName>
+    <Email>patient4@gmail.com</Email>
+    <DiseaseDescription>severe back pain</DiseaseDescription>
+    <SecretKey>5qk48g3r</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>5</id_no>
+    <PatientName>patient5</PatientName>
+    <DoctorName>doctor5</DoctorName>
+    <Age>65</Age>
+    <DiseaseName>cancer</DiseaseName>
+    <Email>patient5@gmail.com</Email>
+    <DiseaseDescription>cancer</DiseaseDescription>
+    <SecretKey>3xd9jfov</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>6</id_no>
+    <PatientName>patient6</PatientName>
+    <DoctorName>doctor6</DoctorName>
+    <Age>45</Age>
+    <DiseaseName>diabetes</DiseaseName>
+    <Email>patient6@gmail.com</Email>
+    <DiseaseDescription>diabetes problems</DiseaseDescription>
+    <SecretKey>3gmtmx4u</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>7</id_no>
+    <PatientName>patient7</PatientName>
+    <DoctorName>doctor7</DoctorName>
+    <Age>34</Age>
+    <DiseaseName>ear infection</DiseaseName>
+    <Email>patient7@gmail.com</Email>
+    <DiseaseDescription>ear infection,itching</DiseaseDescription>
+    <SecretKey>17vzmlb9</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>8</id_no>
+    <PatientName>patient8</PatientName>
+    <DoctorName>doctor8</DoctorName>
+    <Age>38</Age>
+    <DiseaseName>fracture</DiseaseName>
+    <Email>patient8@gmail.com</Email>
+    <DiseaseDescription>leg fracture</DiseaseDescription>
+    <SecretKey>3ep7fbei</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>9</id_no>
+    <PatientName>patient9</PatientName>
+    <DoctorName>doctor9</DoctorName>
+    <Age>24</Age>
+    <DiseaseName>headache</DiseaseName>
+    <Email>patient9@gmail.com</Email>
+    <DiseaseDescription>severe headache</DiseaseDescription>
+    <SecretKey>y87bu56l</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>10</id_no>
+    <PatientName>patient10</PatientName>
+    <DoctorName>doctor10</DoctorName>
+    <Age>34</Age>
+    <DiseaseName>migraine</DiseaseName>
+    <Email>patient10@gmail.com</Email>
+    <DiseaseDescription>migraine headache</DiseaseDescription>
+    <SecretKey>ka7781f5</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>11</id_no>
+    <PatientName>patient11</PatientName>
+    <DoctorName>doctor11</DoctorName>
+    <Age>56</Age>
+    <DiseaseName>heartattack</DiseaseName>
+    <Email>patient11@gmail.com</Email>
+    <DiseaseDescription>heartattack</DiseaseDescription>
+    <SecretKey>ivjqmtam</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>12</id_no>
+    <PatientName>patient12</PatientName>
+    <DoctorName>doctor12</DoctorName>
+    <Age>17</Age>
+    <DiseaseName>malaria</DiseaseName>
+    <Email>patient12@gmail.com</Email>
+    <DiseaseDescription>fatigue,weakness</DiseaseDescription>
+    <SecretKey>a6vrwvj4</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>13</id_no>
+    <PatientName>patient13</PatientName>
+    <DoctorName>doctor13</DoctorName>
+    <Age>25</Age>
+    <DiseaseName>Ulcers</DiseaseName>
+    <Email>patient13@gmail.com</Email>
+    <DiseaseDescription>ulcers</DiseaseDescription>
+    <SecretKey>iblr701k</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>14</id_no>
+    <PatientName>patient14</PatientName>
+    <DoctorName>doctor14</DoctorName>
+    <Age>33</Age>
+    <DiseaseName>throat infection</DiseaseName>
+    <Email>patient14@gmail.com</Email>
+    <DiseaseDescription>itchy throat</DiseaseDescription>
+    <SecretKey>jtzk7ow0</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>15</id_no>
+    <PatientName>patient15</PatientName>
+    <DoctorName>doctor15</DoctorName>
+    <Age>23</Age>
+    <DiseaseName>Chest Pain</DiseaseName>
+    <Email>patient15@gmail.com</Email>
+    <DiseaseDescription>severe chest pain</DiseaseDescription>
+    <SecretKey>74z7wflb</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>16</id_no>
+    <PatientName>patient16</PatientName>
+    <DoctorName>doctor16</DoctorName>
+    <Age>33</Age>
+    <DiseaseName>chest congestion</DiseaseName>
+    <Email>patient16@gmail.com</Email>
+    <DiseaseDescription>severe congestion</DiseaseDescription>
+    <SecretKey>it0o5064</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>17</id_no>
+    <PatientName>patient17</PatientName>
+    <DoctorName>doctor17</DoctorName>
+    <Age>25</Age>
+    <DiseaseName>common cold</DiseaseName>
+    <Email>patient17@gmail.com</Email>
+    <DiseaseDescription>cold,ache</DiseaseDescription>
+    <SecretKey>dhhs4ck7</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>18</id_no>
+    <PatientName>patient18</PatientName>
+    <DoctorName>doctor18</DoctorName>
+    <Age>15</Age>
+    <DiseaseName>high fever</DiseaseName>
+    <Email>patient18@gmail.com</Email>
+    <DiseaseDescription>fever,weakness</DiseaseDescription>
+    <SecretKey>x93v1ro2</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>19</id_no>
+    <PatientName>patient19</PatientName>
+    <DoctorName>doctor19</DoctorName>
+    <Age>22</Age>
+    <DiseaseName>fracture</DiseaseName>
+    <Email>patient19@gmail.com</Email>
+    <DiseaseDescription>leg fracture</DiseaseDescription>
+    <SecretKey>xajtjvv3</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>20</id_no>
+    <PatientName>patient20</PatientName>
+    <DoctorName>doctor20</DoctorName>
+    <Age>29</Age>
+    <DiseaseName>asthama</DiseaseName>
+    <Email>patient20@gmail.com</Email>
+    <DiseaseDescription>breathing problem</DiseaseDescription>
+    <SecretKey>wocgmcaw</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>21</id_no>
+    <PatientName>patient21</PatientName>
+    <DoctorName>doctor21</DoctorName>
+    <Age>45</Age>
+    <DiseaseName>Vertigo</DiseaseName>
+    <Email>patient21@gmail.com</Email>
+    <DiseaseDescription>dizziness,weakness</DiseaseDescription>
+    <SecretKey>0p7a5a1l</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>22</id_no>
+    <PatientName>patient22</PatientName>
+    <DoctorName>doctor22</DoctorName>
+    <Age>33</Age>
+    <DiseaseName>typhoid</DiseaseName>
+    <Email>patient22@gmail.com</Email>
+    <DiseaseDescription>weakness</DiseaseDescription>
+    <SecretKey>22ciqt2f</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>23</id_no>
+    <PatientName>patient23</PatientName>
+    <DoctorName>doctor23</DoctorName>
+    <Age>23</Age>
+    <DiseaseName>jaundice</DiseaseName>
+    <Email>patient23@gmail.com</Email>
+    <DiseaseDescription>weakness,fatigue</DiseaseDescription>
+    <SecretKey>4939ugrf</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>24</id_no>
+    <PatientName>patient24</PatientName>
+    <DoctorName>doctor24</DoctorName>
+    <Age>23</Age>
+    <DiseaseName>asthama</DiseaseName>
+    <Email>patient24@gmail.com</Email>
+    <DiseaseDescription>problem breathing</DiseaseDescription>
+    <SecretKey>0pk8jlxd</SecretKey>
+  </New_Table>
+  <New_Table>
+    <id_no>25</id_no>
+    <PatientName>patient25</PatientName>
+    <DoctorName>doctor25</DoctorName>
+    <Age>44</Age>
+    <DiseaseName>back ache</DiseaseName>
+    <Email>patient25@gmail.com</Email>
+    <DiseaseDescription>severe ache in back</DiseaseDescription>
+    <SecretKey>2ar1ugvp</SecretKey>
+  </New_Table>
+</NewDataSet>

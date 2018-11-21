@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CoOrdinator.master.cs" Inherits="Admin" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Privacy Preserving Information Brokering</title>
+<link id="Link1" rel="shortcut icon" href="images/favicon.ico" runat="server" />
+<link id="Link2" rel="icon" type="image/gif" href="images/animated_favicon1.gif" runat="server" />
+<link href="website1.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+    function clearText(field) {
+        if (field.defaultValue == field.value) field.value = '';
+        else if (field.value == '') field.value = field.defaultValue;
+    }
+</script>
+</head>
+<body>
+<div id="background"></div>
+<div class="mine">
+<div id="templatemo_site_title_bar_wrapper">
+	
+   <div id="templatemo_site_title_bar">
+   			<div id="site_title">
+                <h1>
+                
+               </h1>
+            </div>
+    </div>  
+
+</div> 
+<div id="banner"></div>
+<div id="templatemo_banner">
+
+	<div id="templatemo_menu">
+        <ul>
+        <p style="color:#D4D4D4;background-color:#171717;font-size:17px;border:1px solid #00C3A9;padding:5px;text-align:center;">Coordinator Controls</p>
+        <br />
+            <li><a href="CoDefault.aspx"><span></span>Home</a></li>
+            <li><a href="CoReceivedDetails.aspx"><span></span>Received Details</a></li>
+            <li><a href="CoAssignTask.aspx "><span></span> Requested Task</a></li>
+
+            <li><a id="changepw" href="coordinatorchangepw.aspx"  runat="server"  >Change Password</a></li>
+             <li>   <a href="coordinatorprofile.aspx" runat="server" id="coordinatorpro">Profile</a></li>
+           <li>   <a href="Logout.aspx" runat="server" id="logOutLink">LogOut</a></li>
+        </ul>    	
+    </div> <!-- end of menu -->
+
+     <div id="banner_content">
+     <img src="images/internet_earth.png" style="height:100px;width:100px;float:left;"/>
+
+        <p style="float:right;display:block;" >Enforcing Secure and <span style="color:#00C3A9;font-size: 30px;line-height: 34px;letter-spacing:0px;">Privacy Preserving
+Information Brokering</span>in Distributed Information
+Sharing<span> </span> </p>
+        
+  </div>
+    
+</div> <!-- end of templatemo_banner -->
+
+<div id="templatemo_content">
+
+<form id="form3" runat="server" >
+<asp:ContentPlaceHolder ID="cntplaceholderr2" runat="server" />
+
+</form>
+		
+        
+     
+    
+   
+            
+</div> 
+<asp:Label ID="Label1" runat="server" Text="Label" Visible="false"></asp:Label>
+</div></body>
+</html>
