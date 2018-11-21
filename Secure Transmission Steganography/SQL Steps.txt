@@ -1,0 +1,5 @@
+create user stegno identified by stegno;
+grant dba to stegno;
+conn stegno/stegno;
+create table admins(lname varchar2(30),lpwd varchar2(30));
+insert into admins values('admin','admin');
