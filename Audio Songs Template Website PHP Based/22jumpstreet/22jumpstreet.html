@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background CSS Example </title>
+<style>
+div#main{position:relative;}
+div#first{background-image: url('pics/1.jpg');opacity:.2;height:580px;background-repeat: no-repeat;}
+div#second{height:560px;position:absolute;top: 20px;left:20px;right:20px;bottom:20px;}
+ol#song{font-size: 25px;padding-left: 10px;margin-bottom: 20px;margin-left: 30px;list-style-type: none;font-family: verdana;line-height: 35px;letter-spacing: -1.5px;}
+a#link{text-decoration: none;color:#91918C;transition:color 0.5s ease;}
+a#link:hover{color: #FFFFF0;}
+body{
+    opacity : 0;
+    transition : opacity 0.9s ease; 
+}
+
+.loaded {
+   opacity : 1;
+}
+</style>
+</head> 
+
+<body onload="document.body.classList.add('loaded')">
+<div id="main">
+<div id="first">
+</div>
+<div id="second">
+<p id="container">
+<ol id="song">
+	<li><a id="link" href="songs/Bingo Players - Get Up (Rattle).mp3">1. Bingo Players - Get Up (Rattle)</a></li>
+	<li><a id="link" href="songs/Duck Sauce - NRG (Skrillex , Kill The Noise, Milo & Otis Remix).mp3">2. Duck Sauce - NRG (Skrillex , Kill The Noise, Milo & Otis Remix)</a></li>
+	<li><a id="link" href="songs/Shermanology - Can't You See.mp3">3. Shermanology - Can't You See</a></li>
+	<li><a id="link" href="songs/Tiesto - Wasted.mp3">4. Tiesto - Wasted</a></li>
+	<li><a id="link" href="songs/Travis Barker - Live Forever.mp3">5. Travis Barker - Live Forever</a></li>
+	<li><a id="link" href="songs/Wiz Khalifa - Work Hard, Play Hard.mp3">6. Wiz Khalifa - Work Hard, Play Hard</a></li>
+	
+
+
+</ol>
+</p>
+</div>
+</div>
+</body>
+</html>

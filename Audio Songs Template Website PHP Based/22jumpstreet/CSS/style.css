@@ -1,0 +1,4 @@
+#main{position:relative;}
+div#first{background-image: url('../images/1.jpg');
+opacity:.2;width:300px;height:300px;}
+div#second{width:300px;height:300px;position:absolute;top: 0;left:0;}
