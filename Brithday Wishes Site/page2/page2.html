@@ -1,0 +1,101 @@
+<!doctype html> 
+<html lang="en" class="no-js"> 
+<head> 
+  <meta charset="UTF-8" /> 
+  <title>Birthday Wishes</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type='text/javascript' src='js/jquery.particleground.min.js'></script>
+  <script type='text/javascript' src='js/demo.js'></script>
+  <style type="text/css">
+    @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Pacifico'), url('http://themes.googleusercontent.com/font?kit=fKnfV28XkldRW297cFLeqfesZW2xOQ-xsNqO47m55DA') format('truetype');
+}
+#button {
+    display: inline-block;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out,opacity 1s;
+    -moz-transition: -moz-box-shadow .1s ease-in-out,opacity 1s;
+    -o-transition: -o-box-shadow .1s ease-in-out,opacity 1s;
+    transition: box-shadow .1s ease-in-out,opacity 1s;
+    font-size: 50px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+#button span {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color:#001E1E;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    font-family: 'Pacifico', Arial, sans-serif;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(175, 49, 95, .7);
+    -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out,opacity 1s;
+    -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out,opacity 1s;
+    -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out,opacity 1s;
+    transition: background-color .2s ease-in-out, transform .1s ease-in-out,opacity 1s;
+    opacity: 0.9;
+}
+
+#button:hover span {
+    background-color: #001E1E;
+    text-shadow: 0 -1px 2px rgba(175, 49, 95, .9), 0 0 5px rgba(255, 255, 255, .8);
+    opacity: 1;
+}
+
+#button:active, #button:focus {
+    }
+
+#button:active span {
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
+}
+  </style>
+
+</head> 
+
+<body>
+
+<div id="particles">
+  <div class="wish">
+  <h1 style="font-size:250%;color:#66CBFF">Choose your device</h1>
+  <a href="../pcmenu/pcmenu.html" id="button"><span>Pc/laptop</span></a>
+  <a href="../mmenu/mmenu.html" id="button"><span>Mobile</span></a>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59800761-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body> 
+</html> 
